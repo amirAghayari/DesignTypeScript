@@ -16,6 +16,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.myBackgroundColor {
+  background: linear-gradient(to right, #c8ccf0, #97a3a3);
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

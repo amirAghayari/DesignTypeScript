@@ -1,11 +1,14 @@
-import HelloWrold from "./components/HelloWrold";
-
+import Background from "./components/Background.tsx";
+import Details from "./components/Details.tsx";
+import Header from "./components/Header.tsx";
 function App() {
   return (
-    <>
-      <HelloWrold />
-      <HelloWrold name="React" />
-    </>
+    <div className="container myBackgroundColor w-screen h-screen">
+      <Background>
+        <Header />
+        <Details />
+      </Background>
+    </div>
   );
 }
 
